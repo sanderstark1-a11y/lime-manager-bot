@@ -1,0 +1,4 @@
+vk-api==11.9.9
+requests==2.31.0
+gunicorn==20.1.0
+flask==2.3.2
