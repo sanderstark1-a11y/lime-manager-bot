@@ -11,10 +11,9 @@ from typing import Optional, Dict, List, Tuple
 import re
 
 # ==================== КОНФИГУРАЦИЯ ====================
-TOKEN = "vk1.a.cgsYo5dMWn_d6c51WiuJZxjwDytf5grd5uhcyPWOC4ny5VNcDj1097PnVZfukL2jchzz9t1E4YFy1k9tdUlVgk_Z0WVoYYr-3N4GjWpsR0SFoatWE0bNef7uPMNex2e8L1Roh89F9ibEg7y5nnqoVbLruWDsCk2Q3prug_1iWrRdIkKOSkFzK_hcqvinmHpVEFos4AGzCTZJRGlE6tNVyA"
+TOKEN = "vk1.a.f7aJMNUMb7j3VhsaCPbzfGzIoi5xKoxnd8qip6o3YiaVk4wSUBLbLADLuiuTDt4mkTH_stfp9EKu52tnXDmaSAHFTf9owV9IwQFpihhcJXmYfmkQR49ZczDi0bOtZw7Z_j8UQXEJkWhKGuzw3jwHzyH0v6HhCqWV7BE5HkmIDd3enEnqRGSfbdZKF2GVOTjmgnyu714w2jxmeTXpO3l9Aw"
 GROUP_ID = "235020203"
 OWNER_ID = 1021905669  # Твой ID ВКонтакте
-
 # Подключение к VK
 vk_session = vk_api.VkApi(token=TOKEN)
 vk = vk_session.get_api()
